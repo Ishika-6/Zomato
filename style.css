@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url("images/bg.avif");
+    color: #ffffff;
+    height: 570px;
+    
+
+}
+nav ul li{
+    padding: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style-type: none;
+
+}
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 18%;
+    font-weight: 500;
+}
+nav{
+    height: 72px;
+
+}
+.head-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 4.5rem;
+    font-weight: 1000;
+    font-style: italic;
+
+}
+.head-par{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+.hero-head img{
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.hero-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 3%;
+}
+.hero-par{
+    font-size: 1.4rem;
+    color: rgb(105, 105, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight: 100;
+    
+}
+.locations{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.loc{
+    box-shadow: rgba(28, 28, 28, 0.08) 0px;
+    padding: 1.5rem 2.4rem;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    /* margin-bottom: 1.5rem; */
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 1.5rem;
+}
